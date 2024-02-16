@@ -477,7 +477,10 @@ div.facebook .pp_close {
 div.facebook .pp_description {
   margin: 0 37px 0 0;
 }
-
+div.facebook .pp_loaderIcon {
+  background: url(../images/prettyPhoto/facebook/loader.gif) center center
+    no-repeat;
+}
 div.facebook .pp_arrow_previous {
   background: url(../images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;
   height: 22px;
@@ -584,7 +587,19 @@ div.pp_pic_holder {
   display: none;
   margin: 0;
 }
-
+.pp_social {
+  float: left;
+  margin: 0;
+}
+.pp_social .facebook {
+  float: left;
+  margin-left: 5px;
+  width: 55px;
+  overflow: hidden;
+}
+.pp_social .twitter {
+  float: left;
+}
 .pp_nav {
   clear: right;
   float: left;
