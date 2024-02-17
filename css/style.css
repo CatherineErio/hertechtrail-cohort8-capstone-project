@@ -277,7 +277,7 @@ a.navbar-brand img {
 }
 #menu .nav > li > a {
   background: none;
-  color: #fff;
+  color: black;
 }
 #menu ul.nav li a:hover,
 #menu ul.nav li a.active {
