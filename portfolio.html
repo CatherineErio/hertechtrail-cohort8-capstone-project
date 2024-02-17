@@ -35,7 +35,11 @@
   </head>
   <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
     <!--Preloader-->
-   
+    <div class="preloader">
+      <div id="pre-status">
+        <div class="preload-placeholder"></div>
+      </div>
+    </div>
     <!--Navigation-->
     <header id="menu">
       <div class="navbar navbar-default navbar-fixed-top">
@@ -73,12 +77,11 @@
                 <li>
                   <a class="scroll" href="about.html">About</a>
                 </li>
-                
-               
+
                 <li>
                   <a class="scroll" href="portfolio.html">Portfolio</a>
                 </li>
-               
+
                 <li>
                   <a class="scroll" href="contact.html">Contact</a>
                 </li>
@@ -90,115 +93,7 @@
         </div>
       </div>
     </header>
-    <!--Slider-Start-->
-    <section id="slider">
-      <div id="home-carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div
-            class="item active"
-            style="
-              background-image: url(images/banner/Screenshot_2024-01-29_094728-removebg-preview.png);
-            "
-          >
-            <div class="carousel-caption container">
-              <div class="row">
-                <div class="col-md-7 col-sm-12 col-xs-12">
-                  <h1>Adebisi Ojumirayo</h1>
-                  <h2>Catherine</h2>
-                  <p>
-                   Web Developer – I Create And Implement Designs Demanded By A
-                    Client Or Created By A Design Team.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="item"
-            style="background-image: url(images/banner/slider\ 3.webp)"
-          >
-            <div class="carousel-caption container">
-              <div class="row">
-                <div class="col-md-7 col-sm-12 col-xs-12">
-                  <h1>Adebisi Ojumirayo</h1>
-                  <h2>Catherine</h2>
-                  <p>
-                     Web Developer – I Create And Implement Designs Demanded By A
-                    Client Or Created By A Design Team.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="item"
-            style="background-image: url(images/banner/HTML-CSS-JS-845x684.jpg)"
-          >
-            <div class="carousel-caption container">
-              <div class="row">
-                <div class="col-md-7 col-sm-12 col-xs-12">
-                  <h1>Adebisi Ojumirayo</h1>
-                  <h2>Catherine</h2>
-                  <p>
-                    Web Developer -I Use HTML To Define The Structure Of Your
-                    Desired Content, Utiize CSS To Determine The Style And
-                    Layout, And Apply JavaScript To Make The Content
-                    Interactive.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a class="home-carousel-left" href="#home-carousel" data-slide="prev"
-            ><i class="fa fa-angle-left"></i
-          ></a>
-          <a class="home-carousel-right" href="#home-carousel" data-slide="next"
-            ><i class="fa fa-angle-right"></i
-          ></a>
-        </div>
-      </div>
-      <!--/#home-carousel-->
-    </section>
-    <!--About-Section-Start-->
-    <section id="about">
-      <div class="container">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="heading">
-            <h2>ABOUT <span>ME</span></h2>
-            
-        </div>
-        <div class="row">
-          <div class="col-md-12 ab-sec">
-            <div class="col-md-6">
-              <h3
-                class="wow fadeInDown"
-                data-wow-duration="1000ms"
-                data-wow-delay="300ms"
-              >
-                <span> Creative </span> And Awesome
-              </h3>
-              <p>
-                <span><strong>As </strong></span
-                >a web developer, I possess the knowledge to create websites according to your specific needs and preferences.
-                Whether you require a simple landing page or a dynamic e-commerce platform, 
-                 I can use my skills to bring your vision to life. From thought to implementation, 
-                 I am equipped to handle aspects of web development, ensuring that the
-                final product meets your expectations and objectives. Let's collaborate to build a website 
-                that fulfills your desires and achieves your goals.
-              </p>
-            </div>
-            <div
-              class="col-md-6 ab-sec-img wow fadeInUp"
-              data-wow-duration="1000ms"
-              data-wow-delay="300ms"
-            >
-              <img src="images/banner/about.webp" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-   
+
     <!--Portfolio-Section-Start-->
     <section id="portfolio">
       <div class="container">
@@ -466,15 +361,18 @@
     <footer id="footer-down">
       <h2>Follow Me On</h2>
       <ul class="social-icon">
-        
         <li class="linkedin hvr-pulse">
-          <a href="https://www.linkedin.com/in/ojumirayo-adebisi-55a368296/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJlvhKEDRS0yGriaDC5%2FVYg%3D%3D"><i class="fa fa-linkedin"></i></a>
+          <a
+            href="https://www.linkedin.com/in/ojumirayo-adebisi-55a368296/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJlvhKEDRS0yGriaDC5%2FVYg%3D%3D"
+            ><i class="fa fa-linkedin"></i
+          ></a>
         </li>
-        
+
         <li class="instagram hvr-pulse">
-          <a href="https://www.instagram.com/adesola.xx/#"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.instagram.com/adesola.xx/#"
+            ><i class="fa fa-instagram"></i
+          ></a>
         </li>
-       
       </ul>
     </footer>
     <!--Jquery-->
