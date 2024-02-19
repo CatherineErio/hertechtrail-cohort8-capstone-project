@@ -271,12 +271,13 @@ a.navbar-brand img {
   left: 25%;
   position: relative;
 }
-#menu ul.nav li a {
+ul.nav li a {
   font-size: 15px;
   color: black;
+  background: pink;
 }
-#menu .nav > li > a {
-  background: none;
+.nav > li > a {
+  background: pink;
   color: black;
 }
 #menu ul.nav li a:hover,
