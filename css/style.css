@@ -806,6 +806,7 @@ textarea.form-control {
   text-decoration: none;
   font-weight: 300;
   width: 100%;
+	 background-color: pink;
 }
 .mobilenav li:last-child div {
   border-bottom: none;
