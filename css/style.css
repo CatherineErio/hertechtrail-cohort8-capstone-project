@@ -431,7 +431,7 @@ ul.nav li.active a:before {
 }
 /*About-stylesheets-include-here*/
 #about {
-  padding: 3% 0%;
+  padding: 6% 0%;
 }
 #about .heading {
   text-align: center;
@@ -472,7 +472,7 @@ ul.nav li.active a:before {
 
 /*Portfolio-stylesheets-include-here*/
 #portfolio {
-  padding: 2% 0%;
+  padding: 6% 0%;
   background: #f5f5f5;
   text-align: center;
 }
@@ -609,7 +609,7 @@ ul.nav li.active a:before {
 /*Contact-stylesheets-include-here*/
 #contact {
   text-align: center;
-  padding: 3% 0% 0% 2%;
+  padding: 6% 0% 0% 2%;
 }
 .contact-sec-1 {
   text-align: left;

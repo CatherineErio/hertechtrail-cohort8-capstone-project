@@ -196,6 +196,15 @@
   .parallex-content {
     top: 20%;
   }
+  #about {
+    padding: 12%;
+  }
+  #portfolio {
+    padding: 12%;
+  }
+  #contact {
+    padding: 12%;
+  }
 }
 @media all and (min-width: 299px) and (max-width: 479px) {
   #slider-video {
