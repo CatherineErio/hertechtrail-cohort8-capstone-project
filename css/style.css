@@ -255,8 +255,8 @@ a.btn-send:hover {
 }
 /*Navigation-stylesheets-include-here*/
 .navbar-default {
-  background: rgba(248, 248, 248, 0);
-  border: rgba(248, 248, 248, 0);
+  background: pink;
+  border: pink;
   padding: 5px 5px;
 }
 a.navbar-brand img {
@@ -806,7 +806,7 @@ textarea.form-control {
   text-decoration: none;
   font-weight: 300;
   width: 100%;
-	 background-color: pink;
+  background-color: pink;
 }
 .mobilenav li:last-child div {
   border-bottom: none;
