@@ -151,7 +151,7 @@
   }
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
-    background: #e73131;
+    background: rgb(230, 174, 228);
     transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -223,6 +223,15 @@
   }
 }
 @media all and (min-width: 299px) and (max-width: 479px) {
+  #about {
+    padding: 12%;
+  }
+  #portfolio {
+    padding: 12%;
+  }
+  #contact {
+    padding: 12%;
+  }
   #slider-video {
     position: relative;
   }
@@ -262,7 +271,7 @@
   }
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
-    background: #e73131;
+    background: rgb(230, 174, 228);
     transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
