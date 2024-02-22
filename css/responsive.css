@@ -99,6 +99,8 @@
 @media all and (min-width: 320x) and (max-width: 498px) {
   #about {
     padding: 12%;
+    padding-left: 0;
+    padding-right: 0;
   }
   #portfolio {
     padding: 12%;
