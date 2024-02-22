@@ -446,13 +446,13 @@ ul.nav li.active a:before {
   color: #555;
 }
 .ab-sec {
-  text-align: justify;
+  padding: 0;
 }
 .ab-sec h3 {
   font-weight: bolder;
 }
 .ab-sec p {
-  padding: 10px 0px;
+  padding: 0px 0px;
   font-size: 13px;
 }
 /*Background-stylesheets-include-here*/

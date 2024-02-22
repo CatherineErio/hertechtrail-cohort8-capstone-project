@@ -1,4 +1,14 @@
 @media all and (min-width: 993px) and (max-width: 1200px) {
+  #about {
+    padding-top: 12%;
+    margin: 0;
+  }
+  #portfolio {
+    padding: 12%;
+  }
+  #contact {
+    padding: 12%;
+  }
   #slider-video {
     position: relative;
   }
@@ -84,9 +94,27 @@
     top: 25%;
   }
 }
+
+@media all and (min-width: 430x) and (max-width: 932px) {
+  #about {
+    padding: 12%;
+    margin: 0;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  #portfolio {
+    padding: 12%;
+  }
+  #contact {
+    padding: 12%;
+  }
+}
 @media all and (min-width: 414px) and (max-width: 816px) {
   #about {
     padding: 12%;
+    margin: 0;
   }
   #portfolio {
     padding: 12%;
@@ -99,8 +127,7 @@
 @media all and (min-width: 320x) and (max-width: 498px) {
   #about {
     padding: 12%;
-    padding-left: 0;
-    padding-right: 0;
+    margin: 0;
   }
   #portfolio {
     padding: 12%;
@@ -111,6 +138,16 @@
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
+  #about {
+    padding-top: 12%;
+    margin: 0;
+  }
+  #portfolio {
+    padding: 12%;
+  }
+  #contact {
+    padding: 12%;
+  }
   #slider-video {
     position: relative;
   }
@@ -226,7 +263,8 @@
 }
 @media all and (min-width: 299px) and (max-width: 479px) {
   #about {
-    padding: 12%;
+    padding-top: 12%;
+    margin: 0;
   }
   #portfolio {
     padding: 12%;
